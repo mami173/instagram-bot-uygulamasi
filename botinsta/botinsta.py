@@ -5,13 +5,13 @@ from tkinter import messagebox
 
 def download_post():
     #kullanıcı adını alma 
-    username = entry_username.get()
+    username = mmtn199.get()
 
     try:
         #nesne oluştur
         bot = instaloader.Instaloader()
         # profil nesnesi oluşturma
-        profile = instaloader.Profile.from_username(bot.context,username)
+        profile = instaloader.Profile.from_username(https://www.instagram.com/mmtn199?igsh=MTBwaDQ1NzN0OGd4OA%3D%3D&utm_source=qr)
         #kullanıcı gönderilerini al 
         posts = profile.get_posts()
         #gönderileri indir
